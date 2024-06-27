@@ -33,8 +33,8 @@ class _HomePageState extends State<HomePage> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                Color(0xFF65B1D1),
-                Color(0xFF8CC3DD),
+                Colors.green,
+                Colors.lightGreen,
                 Colors.white,
                 Colors.white,
               ])),
@@ -207,7 +207,7 @@ class _HomePageState extends State<HomePage> {
                                                 ])
                                           : BoxDecoration(
                                               color: Colors
-                                                  .lightBlueAccent.shade100,
+                                                  .lightGreenAccent.shade100,
                                               borderRadius:
                                                   BorderRadius.circular(21),
                                             ),
@@ -304,7 +304,7 @@ class _HomePageState extends State<HomePage> {
                               height: MediaQuery.of(context).size.height / 11,
                               width: MediaQuery.of(context).size.width / 1.1,
                               decoration: BoxDecoration(
-                                color: Colors.lightBlueAccent.shade100,
+                                color: Colors.lightGreenAccent.shade100,
                                 borderRadius: BorderRadius.circular(21),
                               ),
                               child: Row(
@@ -358,7 +358,6 @@ class _HomePageState extends State<HomePage> {
                                         color: Colors.black,
                                         fontWeight: FontWeight.w900),
                                   ),
-                                  //SizedBox(width: 3.w,)
                                 ],
                               ),
                             )
@@ -367,7 +366,7 @@ class _HomePageState extends State<HomePage> {
                       }
                       return Center(
                           child: CircularProgressIndicator(
-                        color: Colors.lightBlueAccent,
+                        color: Colors.lightGreenAccent,
                       ));
                     },
                   ),

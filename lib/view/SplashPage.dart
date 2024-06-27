@@ -30,8 +30,7 @@ class _SplashPageState extends State<SplashPage> {
                   padding: EdgeInsets.only(top: 35.h),
                   child: Text(
                     "Take Care Of Your Day By",
-                    style: TextStyle(
-                        fontSize: 15.sp, color: Colors.lightBlueAccent),
+                    style: TextStyle(fontSize: 15.sp, color: Colors.green),
                   ),
                 ),
               ),
@@ -41,8 +40,7 @@ class _SplashPageState extends State<SplashPage> {
                   padding: EdgeInsets.only(top: 41.h),
                   child: Text(
                     "Checking The Weather Forecast",
-                    style: TextStyle(
-                        fontSize: 15.sp, color: Colors.lightBlueAccent),
+                    style: TextStyle(fontSize: 15.sp, color: Colors.green),
                   ),
                 ),
               ),
@@ -59,7 +57,7 @@ class _SplashPageState extends State<SplashPage> {
                         height: MediaQuery.of(context).size.height / 15,
                         width: MediaQuery.of(context).size.width / 2.1,
                         decoration: BoxDecoration(
-                            color: Colors.lightBlueAccent,
+                            color: Colors.greenAccent,
                             borderRadius: BorderRadius.circular(15)),
                         alignment: Alignment.center,
                         child: Text(
@@ -67,7 +65,7 @@ class _SplashPageState extends State<SplashPage> {
                           style: TextStyle(
                               fontSize: 15.sp,
                               fontWeight: FontWeight.w900,
-                              color: Colors.white),
+                              color: Colors.black),
                         ),
                       ),
                     )),
