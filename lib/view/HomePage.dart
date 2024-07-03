@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  "${((data.wind!.deg! - 32) * 5 / 9).toStringAsFixed(0)}",
+                                  "${((data.wind!.deg! - 32) * 5 / 32).toStringAsFixed(0)}",
                                   style: GoogleFonts.notoSerifAhom(
                                       fontSize: 25.sp,
                                       color: Colors.black,
